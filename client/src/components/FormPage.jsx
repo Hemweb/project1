@@ -40,7 +40,7 @@ function FormPage() {
     <div className="w-full h-screen  inset-0 relative flex-col sm:flex-row sm:flex">
       <div className="lg:w-2/5 md:w-1/2  w-full relative h-screen flex flex-col items-center justify-center bg-theme ">
           
-          <div className="h-7 w-18  top-3.5 left-3.5 sm:hidden  absolute">
+          <div className="h-7 w-18 z-10 top-3.5 left-3.5 sm:hidden  absolute">
             <Link to={"/"}>
             <img className="w-full h-full " src={logoW} alt="logo" /></Link>
           </div>
