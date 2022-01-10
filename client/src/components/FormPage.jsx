@@ -182,7 +182,7 @@ function FormPage() {
                         Type of business<span className="text-red-500 "> *</span>
                       </label>
                       
-                        <select id="cars" name="cars" class="appearance-none rounded-md relative block w-full md:p-2 p-1.5 lg:p-3 border border-theme  placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 text-xs lg:text-sm">
+                        <select id="cars" name="cars" class="appearance-none rounded-md relative block w-full md:p-2 p-1.5 lg:p-3 border border-theme  placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 text-sm lg:text-sm">
                             <option value="type1" onClick={(e)=> setBType(e.target.value)}>type1</option>
                             <option value={bType} onClick={()=> setBType("type2")}>type2</option>
                             <option value="type3">type3</option>
@@ -204,7 +204,7 @@ function FormPage() {
                         type="email"
                         autoComplete="email"
                         required
-                        className="appearance-none  relative block w-full md:p-2 p-1.5 lg:p-3 border border-theme  placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 text-xs lg:text-sm"
+                        className="appearance-none  relative block w-full md:p-2 p-1.5 lg:p-3 border border-theme  placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 text-sm lg:text-sm"
                         placeholder="Enter type of business.."
                       />
                     </div>
@@ -221,7 +221,7 @@ function FormPage() {
                       type="text"
                       autoComplete="name"
                       required
-                      className="appearance-none  relative block w-full md:p-2 p-1.5 lg:p-3 border border-theme  placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 text-xs lg:text-sm"
+                      className="appearance-none  relative block w-full md:p-2 p-1.5 lg:p-3 border border-theme  placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 text-sm lg:text-sm"
                       placeholder="Enter your name"
                     />
                   </div>
@@ -242,7 +242,7 @@ function FormPage() {
                         type=""
                         autoComplete="name"
                         required
-                        className="appearance-none rounded-md relative block w-full md:p-2 p-1.5 lg:p-3 border border-theme  placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 text-xs lg:text-sm"
+                        className="appearance-none rounded-md relative block w-full md:p-2 p-1.5 lg:p-3 border border-theme  placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 text-sm lg:text-sm"
                         placeholder="Enter your Company name"
                       />
                     </div>
@@ -258,7 +258,7 @@ function FormPage() {
                         type=""
                         autoComplete="role"
                         required
-                        className="appearance-none  relative block w-full md:p-2 p-1.5 lg:p-3 border border-theme  placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 text-xs lg:text-sm"
+                        className="appearance-none  relative block w-full md:p-2 p-1.5 lg:p-3 border border-theme  placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 text-sm lg:text-sm"
                         placeholder="Your role in company "
                       />
                     </div>
@@ -274,7 +274,7 @@ function FormPage() {
                         type="number"
                         autoComplete="phone"
                         required
-                        className="appearance-none rounded-md relative block w-full md:p-2 p-1.5 lg:p-3 border border-theme  placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 text-xs lg:text-sm"
+                        className="appearance-none rounded-md relative block w-full md:p-2 p-1.5 lg:p-3 border border-theme  placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 text-sm lg:text-sm"
                         placeholder="Your number"
                       />
                     </div>
@@ -293,7 +293,7 @@ function FormPage() {
                         type="email"
                         autoComplete="email"
                         required
-                        className="appearance-none  relative block w-full md:p-2 p-1.5 lg:p-3 border border-theme  placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 text-xs lg:text-sm"
+                        className="appearance-none  relative block w-full md:p-2 p-1.5 lg:p-3 border border-theme  placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 text-sm lg:text-sm"
                         placeholder="Email address"
                       />
                     </div>
