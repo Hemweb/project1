@@ -92,7 +92,8 @@ const [array] = useState([])
         <div className="lg:w-2/5 md:w-1/2  w-full relative h-screen flex flex-col items-center justify-center bg-theme ">
           
           <div className="h-7 w-18  top-3.5 left-3.5 sm:hidden  absolute">
-            <img className="w-full h-full " src={logoW} alt="logo" />
+            <Link to={"/"}>
+            <img className="w-full h-full " src={logoW} alt="logo" /></Link>
           </div>
         <div className="w-full relative h-screen flex flex-col items-center justify-center  p-9 sm:p-5 sm:py-5">
           <div className="lg:px-3 mb-4 md:mb-2">

@@ -15,7 +15,8 @@ function Completed() {
     <div className="w-full h-screen  inset-0 relative flex-col sm:flex-row sm:flex">
       <div className="lg:w-2/5 md:w-5/12  w-full relative h-screen flex items-center justify-center bg-theme ">
           <div className="h-7 w-18  top-3.5 left-3.5 sm:hidden  absolute">
-            <img className="w-full h-full " src={logoW} alt="logo" />
+            <Link to={"/"}>
+            <img className="w-full h-full " src={logoW} alt="logo" /></Link>
           </div>
 
             <div className="w-full h-full lg:p-10 lg:px-5 p-3 flex items-center justify-center gap-2 lg:gap-3 text-white flex-col ">
